@@ -11,12 +11,12 @@ def load_library(file_path = 'lib/emoticons.yml')
   return_hash
 end
 
-def get_japanese_emoticon(file_path, emoticon)
-  emoticons = load_library('lib/emoticons.yml')
-  emoticons["get_emoticon"].each do |english_emoticon, japanese_emoticon|
-    if emoticon == english_emoticon
-      return japanese_emoticon
-    end
-  end
-  return "Sorry that emoticon was not found"
-end
+#def get_japanese_emoticon(file_path, emoticon)
+  #emoticons = load_library('lib/emoticons.yml')
+  #emoticons["get_emoticon"].each do |english_emoticon, #japanese_emoticon|
+    #if emoticon == english_emoticon
+      #return japanese_emoticon
+    #end
+  #end
+  #return "Sorry that emoticon was not found"
+#end
